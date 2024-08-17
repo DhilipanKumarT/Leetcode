@@ -12,6 +12,6 @@ class Solution
         return res.substring(0, i) + s;
       }
     }
-    return res + s;
+    return res;
   }
 }
