@@ -31,7 +31,9 @@ class Solution
         Collections.sort(li);
         Collections.reverse(li);
         if(k<=li.size())
+        {
          return li.get(k-1);
+        }
         return -1;
     }
 }
