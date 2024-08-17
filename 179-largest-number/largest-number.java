@@ -8,7 +8,7 @@ class Solution
         {
             str[i]=Integer.toString(nums[i]);
         }
-        Arrays.sort(str, (a,b) -> ((b+a).compareTo(a+b)));
+        Arrays.sort(str,(a,b) -> ((b+a).compareTo(a+b)));
         if(str[0].equals("0")) 
         {
             return "0";
