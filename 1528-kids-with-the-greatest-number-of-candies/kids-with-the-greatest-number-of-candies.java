@@ -9,6 +9,7 @@ class Solution
         {
             max = Math.max(max, can[i]);
         }
+        System.out.print(max);
         for(int i=0;i<n;i++)
         {
             if(can[i]+ex>=max)
